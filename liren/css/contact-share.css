@@ -1,0 +1,38 @@
+header nav ul li:nth-of-type(7) a{
+	color: #FF0000;
+}
+/*标题*/
+.title{
+	width: 1205px;
+	height: 75px;
+	margin: 0px auto;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.title div{
+	width: 270px;
+	height: 75px;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.title div a{
+	width: 0px;
+	height: 30px;
+	color: #666666;
+	border-bottom: 2px solid #c31618;
+	transition: width 0.5s;
+	position: absolute;
+}
+.title div a:nth-child(2){
+	left: 90px;
+}
+.title div a:nth-child(3){
+	left: 180px;
+}
+.title div a span{
+	display: inline-block;
+	width: 70px;
+}

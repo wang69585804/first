@@ -1,0 +1,48 @@
+/*标题*/
+.title div a:hover,.title div a:nth-child(2){
+	width: 65px;
+	color: #c51618;
+	transition: width 0.5s;
+}
+/*广告图*/
+.banner{
+	background: url(../images/about-qiyejianjie.png) no-repeat center center;
+}
+/*页面主体*/
+.main{
+	width: 1205px;
+	height: 830px;
+	margin: 40px auto;
+}
+.main ul{
+	width: 1205px;
+	height: 830px;
+	border-top:1px solid #dedede;
+}
+.main ul li{
+	width: 1205px;
+	height: 275px;
+	overflow: hidden;
+	border-bottom: 1px solid #dedede;
+}
+.main ul li img{
+	margin-top: 40px;
+	float: left;
+}
+.main ul li h2{
+	width: 250px;
+	float: left;
+	margin-top: 40px;
+	font-weight: normal;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.main ul li p{
+	width: 800px;
+	font-size: 12px;
+	line-height: 28px;
+	float: left;
+	margin-left: 25px;
+	color: #666;
+}

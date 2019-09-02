@@ -1,0 +1,186 @@
+header nav ul li:nth-of-type(4) a{
+	color: #FF0000;
+}
+/*页面主体*/
+.main{
+	width: 1205px;
+	height: 585px;
+	margin: 0px auto;
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-between;
+}
+.main .left{
+	width: 750px;
+	height: 585px;
+}
+.main .left #dimg{
+	width: 750px;
+	height: 480px;
+	border: 1px solid #DEDEDE;
+}
+.main .left #dimg li{
+	width: 750px;
+	height: 480px;
+	display: none;
+}
+.main .left #dimg li img{
+	width: 750px;
+	height: 480px;
+}
+.main .left #dimg .sun{
+	display: block;
+}
+.main .left #ximg{
+	width: 750px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.main .left #ximg li{
+	width: 135px;
+	height: 100px;
+	margin-top: 15px;
+	border: 1px solid #dedede;
+	cursor: pointer;
+}
+.main .left #ximg li img{
+	width: 135px;
+	height: 100px;
+}
+.main .left #ximg .sum{
+	border: 1px solid #c62627;
+}
+.main .right{
+	width: 400px;
+	height: 170px;
+}
+.main .right ul{
+	width: 400px;
+	height: 105px;
+	border-bottom: 1px solid #dedede;
+}
+.main .right ul li{
+	font-size: 20px;
+	color: #333;
+}
+.main .right ul li:last-child{
+	margin-top: 15px;
+}
+.main .right ul li input{
+	width: 120px;
+	height: 35px;
+	color: #fff;
+	border: none;
+	outline: none;
+	background-color: #f59846;
+	cursor: pointer;
+}
+.main .right ul li input:first-child{
+	background-color: #00c4f4;
+}
+.main .right div{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #8c8c8c;
+}
+.main .right div span{
+	width: 35px;
+	height: 33px;
+	margin-left: 10px;
+	position: relative;
+	top: 10px;
+	display: inline-block;
+	background: url(../images/img-map.png) no-repeat -40px top;
+	cursor: pointer;
+}
+.main .right div span:nth-of-type(2){
+	background: url(../images/img-map.png) no-repeat -75px top;
+}
+.main .right div span:nth-of-type(3){
+	background: url(../images/img-map.png) no-repeat -109px top;
+}
+.main .right div span:nth-of-type(4){
+	background: url(../images/img-map.png) no-repeat -145px top;
+}
+.main .right div span:nth-of-type(5){
+	background: url(../images/img-map.png) no-repeat -179px top;
+}
+.main .right div span:hover{
+	background: url(../images/img-map.png) no-repeat -40px -35px;
+}
+.main .right div span:nth-of-type(2):hover{
+	background: url(../images/img-map.png) no-repeat -75px -35px;
+}
+.main .right div span:nth-of-type(3):hover{
+	background: url(../images/img-map.png) no-repeat -109px -35px;
+}
+.main .right div span:nth-of-type(4):hover{
+	background: url(../images/img-map.png) no-repeat -145px -35px;
+}
+.main .right div span:nth-of-type(5):hover{
+	background: url(../images/img-map.png) no-repeat -179px -35px;
+}
+/*猜你喜欢*/
+.love{
+	width: 1205px;
+	height: 275px;
+	margin: 0px auto;
+	margin-top: 30px;
+	border-bottom: 1px solid #dedede;
+}
+.love .title{
+	width: 1205px;
+	height: 42px;
+	border-bottom: 1px solid #dedede;
+}
+.love .title div{
+	width: 40px;
+	height: 24px;
+	margin-top: 10px;
+	display: inline-block;
+	background: url(../images/img-map.png) no-repeat -217px -50px;
+}
+.love .title span{
+	width: 130px;
+	height: 20px;
+	font-size: 18px;
+	display: inline-block;
+	position: relative;
+	top: -5px;
+}
+.love .content{
+	width: 1205px;
+	height: 230px;
+}
+.love .content ul{
+	width: 1205px;
+	height: 230px;
+	display: flex;
+	justify-content: space-between;
+}
+.love .content ul li{
+	margin-top: 30px;
+	font-size: 12px;
+	text-align: center;
+}
+.love .content ul li>a p{
+	line-height: 25px;
+	color: #5b5b5b;
+}
+.love .content ul li a:last-child{
+	position: relative;
+	top: 10px;
+	color: #c1181a;
+}
+.container{
+	width: 1205px;
+	height: 1680px;
+	margin: 40px auto;
+}
+.container div{
+	margin-left: 115px;
+}
+.container div:nth-child(2){
+	margin-top: -5px;
+}

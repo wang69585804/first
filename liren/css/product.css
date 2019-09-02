@@ -1,0 +1,164 @@
+header nav ul li:nth-of-type(4) a{
+	color: #FF0000;
+}
+/*标题*/
+.title{
+	width: 1205px;
+	height: 75px;
+	margin: 0px auto;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.title div{
+	width: 265px;
+	height: 75px;
+	font-size: 12px;
+	line-height: 75px;
+}
+/*页面主体*/
+.main{
+	width: 1205px;
+	height: 1350px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.main>ul:first-child{
+	width: 1205px;
+	height: 70px;
+	border: 1px solid #dedede;
+	display: flex;
+}
+.main>ul:first-child li{
+	width: 100px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #555;
+}
+.main>ul:first-child li a:hover{
+	color: #ca4d4e;
+}
+.main>ul:first-child li a{
+	color: #777777;
+}
+.main>ul:first-child li:first-child{
+	width: 150px;
+	height: 70px;
+	margin-left: 10px;
+}
+.main>ul:first-child li:first-child a{
+	margin-left: 20px;
+}
+.main>ul:first-child .color a{
+	color: #ca4d4e;
+}
+.main #content{
+	width: 1205px;
+	height: 1162px;
+}
+.main #content ul{
+	width: 1205px;
+	height: 1162px;
+	display: none;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.main #content .now{
+	display: flex;
+}
+.main #content ul li{
+	width: 280px;
+	height: 350px;
+	overflow: hidden;
+	border: 1px solid #dedede;
+}
+.main #content ul li:first-child,.main #content ul li:nth-child(2),.main #content ul li:nth-child(3),.main #content ul li:nth-child(4){
+	margin-top: 30px;
+}
+.main #content ul li .img{
+	width: 0;
+	height: 265px;
+	border-bottom: 1px solid #c31618;
+	transition: width 0.5s;
+	position: relative;
+}
+.main #content ul li .img .mask{
+	width: 280px;
+	height: 0;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	transition: height 0.5s;
+	z-index: 20;
+}
+.main #content ul li .img h2{
+	width: 100px;
+	position: absolute;
+	top:400px;
+	left: 100px;
+	color: #fff;
+	z-index: 20;
+}
+.main #content ul li .img img{
+	width: 280px;
+	height: 250px;
+	transform: scale(1.0);
+	transition: all 0.5s;
+}
+.main #content ul li:hover .img img{
+	transform: scale(1.1);
+	transition: all 0.5s;
+}
+.main #content ul li:hover .img h2{
+	top: 130px;
+	transition: top 0.5s;
+}
+.main #content ul li:hover .img .mask{
+	height: 265px;
+	transition: height 0.5s;
+}
+.main #content ul li:hover .img{
+	width: 280px;
+	transition: width 0.5s;
+}
+.main #content ul li a{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #555;
+}
+.main #content ul li a span{
+	display: block;
+	color: #999;
+}
+.main #content ul li:hover a{
+	color: #c31618;
+}
+.main #content ul li:hover a span{
+	color: #c31618;
+}
+.main .bottom{
+	width: 1205px;
+	height: 40px;
+	margin: 30px auto;
+	background: #f3f2f2;
+}
+.main>div{
+	width: 1205px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	margin: 30px auto;
+	background-color: #fafafa;
+	transition: border-color 0.5s;
+	cursor: pointer;
+}
+.main #bottom p{
+	color: #b5b5b5;
+}
+.main #bottom:hover{
+	background-color: #f2f2f2;
+	transition: border-color 0.5s;
+}

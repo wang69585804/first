@@ -1,0 +1,175 @@
+header nav ul li:nth-of-type(5) a{
+	color: #FF0000;
+}
+/*标题*/
+.title{
+	width: 1205px;
+	height: 75px;
+	margin: 0px auto;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.title div{
+	width: 60px;
+	height: 75px;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.title div a{
+	width: 60px;
+	color: #c51618;
+	height: 30px;
+	border-bottom: 2px solid #c31618;
+	position: absolute;
+}
+/*广告图*/
+.banner{
+	width: 1205px;
+	height: 520px;
+	margin: 0px auto;
+	border-bottom: 1px solid #dedede;
+	border-top: 1px solid #dedede;
+	background: url(../images/foreign.jpg) no-repeat center center;
+}
+/*页面主体*/
+.main{
+	width: 1205px;
+	height: 645px;
+	border-bottom: 1px solid #dedede;
+	margin: 0px auto;
+}
+.main .tabs{
+	width: 150px;
+	height: 550px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right:48px;
+	border: 1px solid #dedede;
+	float: left;
+}
+.main .tabs .img{
+	width: 110px;
+	height: 100px;
+	margin: 30px auto;
+	background: url(../images/foreign_3.gif) no-repeat center center;
+}
+.main .tabs .p{
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+.main .tabs .p:hover span{
+	width: 65px;
+	opacity: 1;
+	transition: all 0.5s;
+}
+.main .tabs .p span{
+	width: 150px;
+	height: 0px;
+	margin: 0px auto;
+	display: block;
+	border-bottom: 2px solid #c31618;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.main .tabs .nowa span{
+	width: 65px;
+	opacity: 1;
+	transition: all 0.5s;
+}
+.main .tabs .nowa{
+	color: #c2171a;
+}
+.main .header{
+	width: 1005px;
+	height: 135px;
+	float: right;
+}
+.main .header .h{
+	width: 320px;
+	height: 50px;
+	float: left;
+}
+.main .header .h h3{
+	color: #c31618;
+	margin-top: 65px;
+}
+.main .header .h span{
+	font-size: 14px;
+}
+.main .header .img{
+	width: 370px;
+	height: 105px;
+	margin-top: 30px;
+	background: url(../images/foreign_2.jpg) no-repeat center center;
+	float: right;
+}
+.main .body{
+	width: 1005px;
+	height: 505px;
+	float: right;
+}
+.main .body ul{
+	width: 1005px;
+	height: 505px;
+	display: none;
+}
+.main .body .now{
+	display: block;
+}
+.main .body ul li{
+	width: 1005px;
+	height: 215px;
+	margin-bottom: 20px;
+}
+.main .body ul li .img1{
+	width: 200px;
+	height: 215px;
+	font-size: 12px;
+	float: left;
+	border: 1px solid #dedede;
+}
+.main .body ul li .img1 img{
+	width: 200px;
+}
+.main .body ul li .img1 p{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.main .body ul li .img1 span{
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 10px;
+	padding-left: 20px;
+	background: url(../images/coord.jpg) no-repeat left center;
+	display: block;
+}
+.main .body ul li .hp{
+	width: 765px;
+	height: 215px;
+	float: right;
+}
+.main .body ul li .hp h4{
+	width: 45px;
+	height: 40px;
+	border-bottom: 1px solid #c31618;
+}
+.main .body ul li .hp h4 span{
+	width: 212px;
+	display: block;
+}
+.main .body ul li .hp p{
+	width: 765px;
+	height: 200px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #999;
+	padding-top: 20px;
+}

@@ -1,0 +1,73 @@
+/*标题*/
+.title div a:hover,.title div a:first-child{
+	width: 65px;
+	color: #c51618;
+	transition: width 0.5s;
+}
+/*广告图*/
+.banner{
+	width: 1205px;
+	height: 385px;
+	margin: 0px auto;
+	background: url(../images/about-banner.jpg) no-repeat center center;
+}
+/*页面主体*/
+.main{
+	width: 1205px;
+	height: 345px;
+	margin: 40px auto;
+}
+.main ul{
+	width: 1205px;
+	height: 340px;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+}
+.main ul li{
+	width: 1205px;
+	height: 75px;
+	overflow: hidden;
+	line-height: 75px;
+	border-bottom: 1px dashed #dedede;
+}
+.main ul li h2{
+	color: #c21716;
+	height: 75px;
+	float: left;
+	font-size: 20px;
+	margin-right: 25px;
+}
+.main ul li .img{
+	height: 75px;
+	margin-right: 25px;
+	float: left;
+}
+.main ul li p{
+	font-size: 14px;
+	float: left;
+	color: #666;
+}
+.main ul li:first-child{
+	height: 120px;
+	line-height: 20px;
+}
+.main ul li:first-child h2{
+	margin-top: 20px;
+}
+.main ul li:first-child .img{
+	margin-top: 18px;
+}
+.main ul li:first-child .p{
+	margin-top: 20px;
+}
+.main ul li:first-child .p p{
+	line-height: 25px;
+}
+.main ul li:first-child .p p span{
+	color: #c21716;
+	margin-right: 30px;
+}
+.main ul li:last-child{
+	border-bottom: 0px dashed #dedede;
+	
+}

@@ -1,0 +1,56 @@
+/*标题*/
+.title div a:hover,.title div a:nth-child(3){
+	width: 65px;
+	color: #c51618;
+	transition: width 0.5s;
+}
+/*广告图*/
+.banner{
+	background: url(../images/about-fazhanlicheng.png) no-repeat center center;
+}
+/*页面主体*/
+.main{
+	width: 1205px;
+	height: 590px;
+	margin: 0px auto;
+}
+.main>p{
+	width: 1205px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	line-height: 30px;
+	font-size: 12px;
+	border-bottom: 1px dashed #dedede;
+}
+.main ul{
+	width: 1205px;
+	height: 490px;
+	border-bottom: 1px solid #dedede;
+}
+.main ul li{
+	width: 1205px;
+	height: 69px;
+	font-size: 12px;
+	color: #999;
+	border-bottom: 1px dashed #dedede;
+}
+.main ul li:last-of-type{
+	border-bottom: 0px dashed #dedede;
+}
+.main ul li span{
+	float: left;
+	font-size: 26px;
+	line-height: 69px;
+	margin-right: 20px;
+}
+.main ul li:first-child span{
+	color: #c21716;
+}
+.main ul li img{
+	float: left;
+	margin-top: 33px;
+	margin-right: 20px;
+}
+.main ul li p{
+	line-height: 69px;
+}
